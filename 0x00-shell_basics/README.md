@@ -27,3 +27,5 @@
 
 8-firstdelete : is a script that remove the file betty from /tmp/my_first_directory directory.
 
+9-firstdirdeletion : is a script that delete the directory my_first_directory from /tmp directroy
+
