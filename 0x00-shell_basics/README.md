@@ -33,3 +33,5 @@
 
 11-lists : is a script that display all files including ones with names beginning with a period, which are normally hidden, either in the current directory and the parent of the working directory and the /boot directory in order.
 
+12-file_type : is a script that display the type of a file depending on its nature the output will be different.
+
