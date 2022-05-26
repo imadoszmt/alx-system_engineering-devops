@@ -21,3 +21,5 @@
 
 5-listfilesdigitonly : is a script that dispaly current directory contents including long format, user and group IDs displayed numerically, and hidden files starting with dot
 
+6-firstdirectory : is a script that creates a directory named my_first_directory in the /tmp/ directory
+
