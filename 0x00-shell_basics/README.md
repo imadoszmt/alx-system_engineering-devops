@@ -31,3 +31,5 @@
 
 10-back : is a script that changes the working directory to the previous one.
 
+11-lists : is a script that display all files including ones with names beginning with a period, which are normally hidden, either in the current directory and the parent of the working directory and the /boot directory in order.
+
