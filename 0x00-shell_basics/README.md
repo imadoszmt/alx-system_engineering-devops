@@ -7,3 +7,17 @@
 
 4-listmorefiles : a script that display current directory contents, including hidden files starting with ., using the long format.
 
+5-listfilesdigitonly : is a script that dispaly current directory contents including long format, user
+
+5-listfilesdigitonly : is a script that dispaly current directory contents including long format, user
+
+5-listfilesdigitonly : is a script that dispaly current directory contents including long format and user
+
+5-listfilesdigitonly : is a script that dispaly current directory contents including long format, user
+
+5-listfilesdigitonly : is a script that dispaly current directory contents including long format, user
+
+5-listfilesdigitonly : is a script that dispaly current directory contents including long format, user
+
+5-listfilesdigitonly : is a script that dispaly current directory contents including long format, user and group IDs displayed numerically, and hidden files starting with dot
+
