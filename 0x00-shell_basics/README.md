@@ -35,3 +35,5 @@
 
 12-file_type : is a script that display the type of a file depending on its nature the output will be different.
 
+13-symbolic_link : is a script that create in the current working directory a symbolic link named __ls__ into /bin/ls.
+
