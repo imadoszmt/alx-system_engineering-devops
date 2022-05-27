@@ -22,3 +22,4 @@
 
 9-John_Doe : a script that gives read to user and group in addition write to user plus others, finally execute to user and others
 
+10-mirror_permissions
