@@ -23,3 +23,5 @@
 9-John_Doe : a script that gives read to user and group in addition write to user plus others, finally execute to user and others
 
 10-mirror_permissions
+11-directories_permissions: a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+
