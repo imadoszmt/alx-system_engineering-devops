@@ -20,3 +20,5 @@
 
 8-James_Bond : a script that sets the permission to the file hello as follows: Owner: no permission at all and Group: no permission at all and Other users: all the permissions
 
+9-John_Doe : a script that gives read to user and group in addition write to user plus others, finally execute to user and others
+
