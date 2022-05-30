@@ -6,3 +6,5 @@
 
 3-twofiles: a script that display the content of the /etc/passwd and /etc/hosts files.
 
+4-lastlines: a script that display the last 10 lines of /etc/passwd.
+
