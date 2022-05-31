@@ -22,3 +22,5 @@
 
 11-directories: a script that counts the number of directories and sub-directories in the current directory. The current and parent directories are excluded and hidden directories are included.
 
+12-newest_files
+
