@@ -21,3 +21,5 @@
 
 11-binary_to_decimal: a script that converts a number from base 2 to base 10.
 
+12-combinations: a script that prints all possible combinations of two letters, except oo, while letters are lower cases from a to z ,one combination per line, the output should be alpha ordered.
+
