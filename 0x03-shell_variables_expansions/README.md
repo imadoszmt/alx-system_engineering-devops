@@ -25,3 +25,5 @@
 
 13-print_float: a script that prints a number with two decimal places, followed by a new line.
 
+100-decimal_to_hexadecimal: a script that convert from decimal to hexadecimal.
+
