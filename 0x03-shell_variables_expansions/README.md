@@ -11,3 +11,5 @@
 5-local_variables: a script that lists all local variables and environment variables, and functions.
 
 6-create_local_variable: a script that creates a new local variable., echo 
+6-create_global_variable: a script that creates a new global variable., echo 
+7-create_global_variable: a script that creates a new global variable., echo 
