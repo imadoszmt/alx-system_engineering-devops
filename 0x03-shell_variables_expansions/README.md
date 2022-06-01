@@ -4,3 +4,7 @@
 
 2-path: a script that add /action to the variable PATH.
 
+3-paths: a script that counts the number of directories in the PATH.
+
+4-global_variables: a script that lists environment variables.
+
