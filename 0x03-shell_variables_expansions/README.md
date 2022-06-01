@@ -31,3 +31,5 @@
 
 102-odd: a script that prints every other line from the input, starting with the first line.
 
+3-paths: a script that counts the number of directories in the PATH.
+
