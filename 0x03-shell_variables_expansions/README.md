@@ -27,3 +27,5 @@
 
 100-decimal_to_hexadecimal: a script that convert from decimal to hexadecimal.
 
+101-rot13: a script that encodes and decodes text using the rot13 encryption.
+
