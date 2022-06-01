@@ -8,3 +8,5 @@
 
 4-global_variables: a script that lists environment variables.
 
+5-local_variables: a script that lists all local variables and environment variables, and functions.
+
