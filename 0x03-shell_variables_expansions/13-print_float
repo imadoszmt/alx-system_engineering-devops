@@ -1,0 +1,2 @@
+#!/bin/bash
+printf 'รร=)ร *%.2f\n' $NUM

@@ -23,3 +23,5 @@
 
 12-combinations: a script that prints all possible combinations of two letters, except oo, while letters are lower cases from a to z ,one combination per line, the output should be alpha ordered.
 
+13-print_float: a script that prints a number with two decimal places, followed by a new line.
+
