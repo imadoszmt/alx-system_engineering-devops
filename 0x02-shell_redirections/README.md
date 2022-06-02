@@ -46,3 +46,5 @@
 
 00-empty_casks: a command that finds all empty files and directories in the current directory and all sub-directories,displaying only names of the files and directories,including hidden files.
 
+101-gifs: a script that lists all the files with a .gif extension in the current directory and all its sub-directories.including hidden files, no directories,file names without extensions, sorted by byte values.
+
