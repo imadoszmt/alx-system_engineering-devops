@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script is printing "Best School" 10 times until the 9th iteration
+# it print "Best School" then "Hi"
+
+counter=0
+
+while [ $counter -lt 10 ]
+do
+	if [ $counter -eq 9]
+	then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+
+	((counter++))
+done
