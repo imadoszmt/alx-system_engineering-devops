@@ -6,10 +6,10 @@ counter=0
 
 while [ $counter -lt 10 ]
 do
-	if [ $counter -eq 9]
-	then
-		echo "Best School"
+	if [ $counter -eq 9 ]
+       	then
 		echo "Hi"
+		echo "Best School"
 	else
 		echo "Best School"
 	fi
