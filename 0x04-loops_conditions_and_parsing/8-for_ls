@@ -2,4 +2,9 @@
 # This script is printing the content of the current dirctory in a list format, where 
 # only the part of the name after the first dash is printed.
 
-ls | cut -d '-' -f2
+files=$(ls | cut -d '-' -f2)
+
+for file in $files
+do
+	echo "$file"
+done
