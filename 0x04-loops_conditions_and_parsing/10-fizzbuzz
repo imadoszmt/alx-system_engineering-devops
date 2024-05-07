@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# This script is printing number from 1 to 100, replacing numbers that are multiple of 3 and 5
+# by FizzBuzz, numbers multiple of 3 by Fizz, and numbers multiple of 5 by Buzz.
+
+counter=1
+
+while [ $counter -le 100 ]
+do
+	if [ $((counter % 3)) -eq 0 ] && [ $((counter % 5)) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $((counter % 3)) -eq 0 ]
+	then
+		echo "Fizz"
+	elif [ $((counter % 5)) -eq 0 ]
+	then
+		echo "Buzz"
+	else
+		echo "$counter"
+	fi
+	((counter++))
+done
+
