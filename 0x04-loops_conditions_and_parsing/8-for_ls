@@ -2,7 +2,7 @@
 # This script is printing the content of the current dirctory in a list format, where 
 # only the part of the name after the first dash is printed.
 
-files=$(ls | cut -d '-' -f2)
+files=$(find . -maxdepth 1 -type f -printf "%f\n" | cut -d '-' -f2)
 
 for file in $files
 do
