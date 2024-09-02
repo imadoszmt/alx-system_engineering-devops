@@ -44,5 +44,8 @@ if __name__ == "__main__":
     Get employee ID from the command line argument and calls it to print
     the TODO list progress.
     """
+    if len(sys.argv) != 2:
+        sys.exit(1)
+
     employee_id = int(sys.argv[1])
     employee_todo_list_progress(employee_id)
