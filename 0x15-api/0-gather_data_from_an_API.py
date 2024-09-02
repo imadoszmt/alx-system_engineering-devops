@@ -38,7 +38,7 @@ def employee_todo_list_progress(employee_id):
     for title in finished_tasks_titles:
         print(f"    {title}")
 
-#if __name__ == __main__:
+if __name__ == "__main__":
     """
     Get employee ID from the command line argument and calls it to print
     the TODO list progress.
