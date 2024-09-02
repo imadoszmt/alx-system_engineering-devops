@@ -36,7 +36,7 @@ def employee_todo_list_progress(employee_id):
     # Print progress
     print(f"Employee {emp_name} is done with tasks({n_f_tasks}/{all_tasks}):")
     for title in f_tasks_name:
-        print(f"    {title}")
+        print(f"     {title}")
 
 
 if __name__ == "__main__":
