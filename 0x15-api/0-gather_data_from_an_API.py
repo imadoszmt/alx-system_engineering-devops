@@ -30,14 +30,14 @@ def employee_todo_list_progress(employee_id):
 
     # Mesure progress
     all_tasks = len(todo_data)
-    f_tasks = sum(1 for task in todo_data if task['completed'])
-    finished_tasks_titles = [task["title"] for task in todo_data 
-            if task["completed"]]
+    num_f_tasks = sum(1 for task in todo_data if task['completed'])
+    f_tasks_name = [task["title"] for task in todo_data if task["completed"]]
 
     # Print progress
     print(f"Employee {emp_name} is done with tasks({f_tasks}/{all_tasks}):")
-    for title in finished_tasks_titles:
+    for title in f_tasks_name:
         print(f"    {title}")
+
 
 if __name__ == "__main__":
     """
