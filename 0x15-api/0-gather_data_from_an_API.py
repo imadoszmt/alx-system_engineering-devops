@@ -17,15 +17,15 @@ def employee_todo_list_progress(employee_id):
     Returns:
         None
     """
-    endpoint_url = "https://jsonplaceholder.typicode.com/users"
+    users_url = "https://jsonplaceholder.typicode.com/users"
 
     # Fetch the employee data.
-    employee_response = requests.get(f"{endpoint_url}/{employee_id}")
+    employee_response = requests.get(f"{users_url}/{employee_id}")
     employee_data = employee_response.json()
     emp_name = employee_data["name"]
 
     # Fetch employee's TODO list
-    todo_response = requests.get(f"{endpoint_url}/{employee_id}/todos")
+    todo_response = requests.get(f"{users_url}/{employee_id}/todos")
     todo_data = todo_response.json()
 
     # Mesure progress
