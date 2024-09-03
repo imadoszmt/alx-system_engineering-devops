@@ -40,7 +40,7 @@ def export_to_csv(employee_id, employee_data, tasks_data):
         employee_data (dict): The employee data.
         tasks_data (list): The list of tasks.
     """
-    csv_file = f'{employee_id}.csv'
+    csv_name = f'{employee_id}.csv'
 
     with open(csv_name, mode='w', newline='') as file:
         writer = csv.writer(file)
@@ -50,7 +50,7 @@ def export_to_csv(employee_id, employee_data, tasks_data):
         for task in tasks_data:
             writer.writerow([
                 employee_id,
-                user_data['username'],
+                employee_data['username'],
                 task['completed'],
                 task['title']
             ])
@@ -68,5 +68,5 @@ def main():
     export_to_csv(employee_id, employee_data, tasks_data)
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     main()
