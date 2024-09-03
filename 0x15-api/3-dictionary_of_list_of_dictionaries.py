@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This module uses REST API to get all employees' data and export them in JSON format.
+This module uses REST API to get all employees' data and export them
+in JSON format.
 """
 import json
 import requests
@@ -24,6 +25,7 @@ def fetch_all_employees_data():
     tasks_data = tasks_response.json()
 
     return employees_data, tasks_data
+
 
 def export_all_to_json(employees_data, tasks_data):
     """
@@ -59,7 +61,8 @@ def export_all_to_json(employees_data, tasks_data):
 
 def main():
     """
-    Main function that fetches all employees' data and exports it in JSON format.
+    Main function that fetches all employees' data and exports it
+    in JSON format.
 
     Usage:
         python3 3-export_to_JSON.py
