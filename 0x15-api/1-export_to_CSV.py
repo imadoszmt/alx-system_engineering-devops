@@ -43,7 +43,7 @@ def export_to_csv(employee_id, employee_data, tasks_data):
     csv_name = f'{employee_id}.csv'
 
     with open(csv_name, mode='w', newline='') as file:
-        writer = csv.writer(file)
+        writer = csv.writer(file, quoting=csv.QUOTE_ALL)
         writer.writerow(["USER_ID", "USERNAME", "TASK_COMPLETED_STATUS",
                         "TASK_TITLE"])
 
