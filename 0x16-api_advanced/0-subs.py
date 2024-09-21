@@ -19,20 +19,28 @@ def number_of_subscribers(subreddit):
         int: The number of subscribers for the specified subreddit.
         Returns 0 if the subreddit is invalid.
     """
-    url = f"https://www.reddit.com/r/{subreddit}/about.json"
+    # Define the URL for the subreddit's about page
+    url = f'https://www.reddit.com/r/{subreddit}/about.json'
+
+    # Set the User-Agent header
     headers = {
-        "User-Agent": "Custom Reddit API Client"
+        'User-Agent': '0-subs.py/1.0 (by /u/Legitimate-Tone4703)'
     }
 
-    # Fetch the subreddit data.
+    # Make the request to the Reddit API
     response = requests.get(url, headers=headers, allow_redirects=False)
 
-    # Check if the request was successful.
+    # Check if the response is valid
     if response.status_code == 200:
+        # Parse the JSON response
         data = response.json()
-        subscribers = data["data"]["subscribers"]
-        return subscribers
+        # Return the number of subscribers
+        return data['data']['subscribers']
+    elif response.status_code == 404:
+        # If the subreddit is invalid, return 0
+        return 0
     else:
+        # Handle other status codes if necessary
         return 0
 
 
