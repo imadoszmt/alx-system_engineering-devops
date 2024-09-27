@@ -24,7 +24,7 @@ def number_of_subscribers(subreddit):
 
     # Set the User-Agent header
     headers = {
-        'User-Agent': '0-subs.py/1.0 (by /u/Legitimate-Tone4703)'
+        'User-Agent': 'Chrome/91.0.4472.124 Safari/537.36'
     }
 
     # Make the request to the Reddit API
@@ -32,27 +32,19 @@ def number_of_subscribers(subreddit):
 
     # Check if the response is valid
     if response.status_code == 200:
-        # Parse the JSON response
         data = response.json()
+        # Parse the JSON response
+        subscribers = data.get("data", {}).get("subscribers", 0)
         # Return the number of subscribers
-        return data['data']['subscribers']
-    elif response.status_code == 404:
-        # If the subreddit is invalid, return 0
-        return 0
+        return subscribers
     else:
         # Handle other status codes if necessary
         return 0
 
-
 """
 if __name__ == "__main__":
-
-    #Get subreddit name from the command line argument and call the function
-    #to print the number of subscribers.
-
-    if len(sys.argv) != 2:
-        sys.exit(1)
+    if len(sys.argv) < 2:
+        print("Please pass an argument for the subreddit to search.")
     else:
-        subreddit = sys.argv[1]
-        print("{:d}".format(number_of_subscribers(subreddit)))
+        print("{:d}".format(number_of_subscribers(sys.argv[1])))
 """
